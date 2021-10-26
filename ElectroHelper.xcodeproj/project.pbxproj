@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3064C15271D7186004E6ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3064C14271D7186004E6ACE /* AppDelegate.swift */; };
+		F3064C17271D7186004E6ACE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3064C16271D7186004E6ACE /* SceneDelegate.swift */; };
+		F3064C19271D7186004E6ACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3064C18271D7186004E6ACE /* ViewController.swift */; };
+		F3064C1C271D7186004E6ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3064C1A271D7186004E6ACE /* Main.storyboard */; };
+		F3064C1E271D718B004E6ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3064C1D271D718B004E6ACE /* Assets.xcassets */; };
+		F3064C21271D718B004E6ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3064C1F271D718B004E6ACE /* LaunchScreen.storyboard */; };
+		F3064C37271DA1E0004E6ACE /* free-icon-capacitor-778677.png in Resources */ = {isa = PBXBuildFile; fileRef = F3064C36271DA1E0004E6ACE /* free-icon-capacitor-778677.png */; };
+		F3064C39271DA495004E6ACE /* premium-icon-led-1741571.png in Resources */ = {isa = PBXBuildFile; fileRef = F3064C2B271D7D73004E6ACE /* premium-icon-led-1741571.png */; };
+		F3064C3A271DA497004E6ACE /* premium-icon-resistor-2779398.png in Resources */ = {isa = PBXBuildFile; fileRef = F3064C34271D8886004E6ACE /* premium-icon-resistor-2779398.png */; };
+		F3E73569271EE06500D6EB8D /* resistor-50-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E73568271EE06500D6EB8D /* resistor-50-50.png */; };
+		F3E7356B271EE0B000D6EB8D /* resistor-200.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E7356A271EE0B000D6EB8D /* resistor-200.png */; };
+		F3E7356D271EE10E00D6EB8D /* resistor-100.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E7356C271EE10E00D6EB8D /* resistor-100.png */; };
+		F3E7356F271EE15300D6EB8D /* resistor-70.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E7356E271EE15300D6EB8D /* resistor-70.png */; };
+		F3E73573271EFDFC00D6EB8D /* led-100.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E73570271EFDFB00D6EB8D /* led-100.png */; };
+		F3E73574271EFDFC00D6EB8D /* led-200.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E73571271EFDFB00D6EB8D /* led-200.png */; };
+		F3E73575271EFDFC00D6EB8D /* led-70.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E73572271EFDFB00D6EB8D /* led-70.png */; };
+		F3E73579271F050900D6EB8D /* capacitor-70.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E73576271F050900D6EB8D /* capacitor-70.png */; };
+		F3E7357A271F050900D6EB8D /* capacitor-100.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E73577271F050900D6EB8D /* capacitor-100.png */; };
+		F3E7357B271F050900D6EB8D /* capacitor-200.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E73578271F050900D6EB8D /* capacitor-200.png */; };
+		F3E7357D271F088E00D6EB8D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7357C271F088E00D6EB8D /* SecondViewController.swift */; };
+		F3E862B927257A5800063C25 /* top-resistor.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E862B827257A5800063C25 /* top-resistor.png */; };
+		F3E862BB272581F000063C25 /* ResistorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E862BA272581F000063C25 /* ResistorCode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3064C11271D7186004E6ACE /* ElectroHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectroHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3064C14271D7186004E6ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3064C16271D7186004E6ACE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3064C18271D7186004E6ACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3064C1B271D7186004E6ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3064C1D271D718B004E6ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3064C20271D718B004E6ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3064C22271D718B004E6ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3064C2B271D7D73004E6ACE /* premium-icon-led-1741571.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "premium-icon-led-1741571.png"; sourceTree = "<group>"; };
+		F3064C34271D8886004E6ACE /* premium-icon-resistor-2779398.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "premium-icon-resistor-2779398.png"; sourceTree = "<group>"; };
+		F3064C36271DA1E0004E6ACE /* free-icon-capacitor-778677.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "free-icon-capacitor-778677.png"; sourceTree = "<group>"; };
+		F3E73568271EE06500D6EB8D /* resistor-50-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resistor-50-50.png"; sourceTree = "<group>"; };
+		F3E7356A271EE0B000D6EB8D /* resistor-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resistor-200.png"; sourceTree = "<group>"; };
+		F3E7356C271EE10E00D6EB8D /* resistor-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resistor-100.png"; sourceTree = "<group>"; };
+		F3E7356E271EE15300D6EB8D /* resistor-70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resistor-70.png"; sourceTree = "<group>"; };
+		F3E73570271EFDFB00D6EB8D /* led-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "led-100.png"; sourceTree = "<group>"; };
+		F3E73571271EFDFB00D6EB8D /* led-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "led-200.png"; sourceTree = "<group>"; };
+		F3E73572271EFDFB00D6EB8D /* led-70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "led-70.png"; sourceTree = "<group>"; };
+		F3E73576271F050900D6EB8D /* capacitor-70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capacitor-70.png"; sourceTree = "<group>"; };
+		F3E73577271F050900D6EB8D /* capacitor-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capacitor-100.png"; sourceTree = "<group>"; };
+		F3E73578271F050900D6EB8D /* capacitor-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capacitor-200.png"; sourceTree = "<group>"; };
+		F3E7357C271F088E00D6EB8D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F3E862B827257A5800063C25 /* top-resistor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top-resistor.png"; sourceTree = "<group>"; };
+		F3E862BA272581F000063C25 /* ResistorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorCode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3064C0E271D7186004E6ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3064C08271D7186004E6ACE = {
+			isa = PBXGroup;
+			children = (
+				F3064C13271D7186004E6ACE /* ElectroHelper */,
+				F3064C12271D7186004E6ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3064C12271D7186004E6ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3064C11271D7186004E6ACE /* ElectroHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3064C13271D7186004E6ACE /* ElectroHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F3064C2A271D7D67004E6ACE /* Image */,
+				F3064C14271D7186004E6ACE /* AppDelegate.swift */,
+				F3064C16271D7186004E6ACE /* SceneDelegate.swift */,
+				F3064C18271D7186004E6ACE /* ViewController.swift */,
+				F3064C1A271D7186004E6ACE /* Main.storyboard */,
+				F3E862BA272581F000063C25 /* ResistorCode.swift */,
+				F3E7357C271F088E00D6EB8D /* SecondViewController.swift */,
+				F3064C1D271D718B004E6ACE /* Assets.xcassets */,
+				F3064C1F271D718B004E6ACE /* LaunchScreen.storyboard */,
+				F3064C22271D718B004E6ACE /* Info.plist */,
+			);
+			path = ElectroHelper;
+			sourceTree = "<group>";
+		};
+		F3064C2A271D7D67004E6ACE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F3064C34271D8886004E6ACE /* premium-icon-resistor-2779398.png */,
+				F3E73568271EE06500D6EB8D /* resistor-50-50.png */,
+				F3E7356C271EE10E00D6EB8D /* resistor-100.png */,
+				F3E7356A271EE0B000D6EB8D /* resistor-200.png */,
+				F3E7356E271EE15300D6EB8D /* resistor-70.png */,
+				F3E73572271EFDFB00D6EB8D /* led-70.png */,
+				F3E73570271EFDFB00D6EB8D /* led-100.png */,
+				F3E73571271EFDFB00D6EB8D /* led-200.png */,
+				F3E73576271F050900D6EB8D /* capacitor-70.png */,
+				F3E73577271F050900D6EB8D /* capacitor-100.png */,
+				F3E73578271F050900D6EB8D /* capacitor-200.png */,
+				F3E862B827257A5800063C25 /* top-resistor.png */,
+				F3064C2B271D7D73004E6ACE /* premium-icon-led-1741571.png */,
+				F3064C36271DA1E0004E6ACE /* free-icon-capacitor-778677.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3064C10271D7186004E6ACE /* ElectroHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3064C25271D718B004E6ACE /* Build configuration list for PBXNativeTarget "ElectroHelper" */;
+			buildPhases = (
+				F3064C0D271D7186004E6ACE /* Sources */,
+				F3064C0E271D7186004E6ACE /* Frameworks */,
+				F3064C0F271D7186004E6ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectroHelper;
+			productName = ElectroHelper;
+			productReference = F3064C11271D7186004E6ACE /* ElectroHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3064C09271D7186004E6ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F3064C10271D7186004E6ACE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = F3064C0C271D7186004E6ACE /* Build configuration list for PBXProject "ElectroHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3064C08271D7186004E6ACE;
+			productRefGroup = F3064C12271D7186004E6ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3064C10271D7186004E6ACE /* ElectroHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3064C0F271D7186004E6ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3064C21271D718B004E6ACE /* LaunchScreen.storyboard in Resources */,
+				F3E7356F271EE15300D6EB8D /* resistor-70.png in Resources */,
+				F3E7357A271F050900D6EB8D /* capacitor-100.png in Resources */,
+				F3E73574271EFDFC00D6EB8D /* led-200.png in Resources */,
+				F3E73579271F050900D6EB8D /* capacitor-70.png in Resources */,
+				F3E7356D271EE10E00D6EB8D /* resistor-100.png in Resources */,
+				F3064C1E271D718B004E6ACE /* Assets.xcassets in Resources */,
+				F3064C1C271D7186004E6ACE /* Main.storyboard in Resources */,
+				F3E73573271EFDFC00D6EB8D /* led-100.png in Resources */,
+				F3E7357B271F050900D6EB8D /* capacitor-200.png in Resources */,
+				F3E862B927257A5800063C25 /* top-resistor.png in Resources */,
+				F3E73569271EE06500D6EB8D /* resistor-50-50.png in Resources */,
+				F3E73575271EFDFC00D6EB8D /* led-70.png in Resources */,
+				F3064C39271DA495004E6ACE /* premium-icon-led-1741571.png in Resources */,
+				F3E7356B271EE0B000D6EB8D /* resistor-200.png in Resources */,
+				F3064C37271DA1E0004E6ACE /* free-icon-capacitor-778677.png in Resources */,
+				F3064C3A271DA497004E6ACE /* premium-icon-resistor-2779398.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3064C0D271D7186004E6ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E862BB272581F000063C25 /* ResistorCode.swift in Sources */,
+				F3E7357D271F088E00D6EB8D /* SecondViewController.swift in Sources */,
+				F3064C19271D7186004E6ACE /* ViewController.swift in Sources */,
+				F3064C15271D7186004E6ACE /* AppDelegate.swift in Sources */,
+				F3064C17271D7186004E6ACE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3064C1A271D7186004E6ACE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3064C1B271D7186004E6ACE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3064C1F271D718B004E6ACE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3064C20271D718B004E6ACE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3064C23271D718B004E6ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3064C24271D718B004E6ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3064C26271D718B004E6ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ElectroHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.astral.ElectroHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3064C27271D718B004E6ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ElectroHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.astral.ElectroHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3064C0C271D7186004E6ACE /* Build configuration list for PBXProject "ElectroHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3064C23271D718B004E6ACE /* Debug */,
+				F3064C24271D718B004E6ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3064C25271D718B004E6ACE /* Build configuration list for PBXNativeTarget "ElectroHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3064C26271D718B004E6ACE /* Debug */,
+				F3064C27271D718B004E6ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3064C09271D7186004E6ACE /* Project object */;
+}
