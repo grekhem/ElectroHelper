@@ -172,6 +172,7 @@ class SecondViewController: UIViewController {
     
     
         
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         AccuracyLabel.text = "\u{00B1}20%"
