@@ -16,6 +16,12 @@
 		F3064C37271DA1E0004E6ACE /* free-icon-capacitor-778677.png in Resources */ = {isa = PBXBuildFile; fileRef = F3064C36271DA1E0004E6ACE /* free-icon-capacitor-778677.png */; };
 		F3064C39271DA495004E6ACE /* premium-icon-led-1741571.png in Resources */ = {isa = PBXBuildFile; fileRef = F3064C2B271D7D73004E6ACE /* premium-icon-led-1741571.png */; };
 		F3064C3A271DA497004E6ACE /* premium-icon-resistor-2779398.png in Resources */ = {isa = PBXBuildFile; fileRef = F3064C34271D8886004E6ACE /* premium-icon-resistor-2779398.png */; };
+		F3D616E7272FD0AA0055F59E /* ResistorLedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D616E6272FD0AA0055F59E /* ResistorLedViewController.swift */; };
+		F3D616E9272FD14A0055F59E /* PopUpResistLedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D616E8272FD14A0055F59E /* PopUpResistLedViewController.swift */; };
+		F3D616EB272FF7E10055F59E /* resistorLed.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D616EA272FF7E10055F59E /* resistorLed.png */; };
+		F3D616ED273009710055F59E /* PopUpVfLedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D616EC273009710055F59E /* PopUpVfLedViewController.swift */; };
+		F3D616EF27301E890055F59E /* PopUpResistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D616EE27301E890055F59E /* PopUpResistViewController.swift */; };
+		F3D616F1273026C00055F59E /* PopUpAmperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D616F0273026C00055F59E /* PopUpAmperViewController.swift */; };
 		F3E73569271EE06500D6EB8D /* resistor-50-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E73568271EE06500D6EB8D /* resistor-50-50.png */; };
 		F3E7356B271EE0B000D6EB8D /* resistor-200.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E7356A271EE0B000D6EB8D /* resistor-200.png */; };
 		F3E7356D271EE10E00D6EB8D /* resistor-100.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E7356C271EE10E00D6EB8D /* resistor-100.png */; };
@@ -28,7 +34,6 @@
 		F3E7357B271F050900D6EB8D /* capacitor-200.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E73578271F050900D6EB8D /* capacitor-200.png */; };
 		F3E7357D271F088E00D6EB8D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7357C271F088E00D6EB8D /* SecondViewController.swift */; };
 		F3E862B927257A5800063C25 /* top-resistor.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E862B827257A5800063C25 /* top-resistor.png */; };
-		F3E862BB272581F000063C25 /* ResistorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E862BA272581F000063C25 /* ResistorCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +48,12 @@
 		F3064C2B271D7D73004E6ACE /* premium-icon-led-1741571.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "premium-icon-led-1741571.png"; sourceTree = "<group>"; };
 		F3064C34271D8886004E6ACE /* premium-icon-resistor-2779398.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "premium-icon-resistor-2779398.png"; sourceTree = "<group>"; };
 		F3064C36271DA1E0004E6ACE /* free-icon-capacitor-778677.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "free-icon-capacitor-778677.png"; sourceTree = "<group>"; };
+		F3D616E6272FD0AA0055F59E /* ResistorLedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorLedViewController.swift; sourceTree = "<group>"; };
+		F3D616E8272FD14A0055F59E /* PopUpResistLedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpResistLedViewController.swift; sourceTree = "<group>"; };
+		F3D616EA272FF7E10055F59E /* resistorLed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resistorLed.png; sourceTree = "<group>"; };
+		F3D616EC273009710055F59E /* PopUpVfLedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpVfLedViewController.swift; sourceTree = "<group>"; };
+		F3D616EE27301E890055F59E /* PopUpResistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpResistViewController.swift; sourceTree = "<group>"; };
+		F3D616F0273026C00055F59E /* PopUpAmperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpAmperViewController.swift; sourceTree = "<group>"; };
 		F3E73568271EE06500D6EB8D /* resistor-50-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resistor-50-50.png"; sourceTree = "<group>"; };
 		F3E7356A271EE0B000D6EB8D /* resistor-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resistor-200.png"; sourceTree = "<group>"; };
 		F3E7356C271EE10E00D6EB8D /* resistor-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resistor-100.png"; sourceTree = "<group>"; };
@@ -55,7 +66,6 @@
 		F3E73578271F050900D6EB8D /* capacitor-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capacitor-200.png"; sourceTree = "<group>"; };
 		F3E7357C271F088E00D6EB8D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F3E862B827257A5800063C25 /* top-resistor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top-resistor.png"; sourceTree = "<group>"; };
-		F3E862BA272581F000063C25 /* ResistorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				F3064C2A271D7D67004E6ACE /* Image */,
+				F3D616F22730270F0055F59E /* ResistorForLed */,
 				F3064C14271D7186004E6ACE /* AppDelegate.swift */,
 				F3064C16271D7186004E6ACE /* SceneDelegate.swift */,
 				F3064C18271D7186004E6ACE /* ViewController.swift */,
 				F3064C1A271D7186004E6ACE /* Main.storyboard */,
-				F3E862BA272581F000063C25 /* ResistorCode.swift */,
 				F3E7357C271F088E00D6EB8D /* SecondViewController.swift */,
 				F3064C1D271D718B004E6ACE /* Assets.xcassets */,
 				F3064C1F271D718B004E6ACE /* LaunchScreen.storyboard */,
@@ -112,6 +122,7 @@
 				F3E7356E271EE15300D6EB8D /* resistor-70.png */,
 				F3E73572271EFDFB00D6EB8D /* led-70.png */,
 				F3E73570271EFDFB00D6EB8D /* led-100.png */,
+				F3D616EA272FF7E10055F59E /* resistorLed.png */,
 				F3E73571271EFDFB00D6EB8D /* led-200.png */,
 				F3E73576271F050900D6EB8D /* capacitor-70.png */,
 				F3E73577271F050900D6EB8D /* capacitor-100.png */,
@@ -121,6 +132,18 @@
 				F3064C36271DA1E0004E6ACE /* free-icon-capacitor-778677.png */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		F3D616F22730270F0055F59E /* ResistorForLed */ = {
+			isa = PBXGroup;
+			children = (
+				F3D616F0273026C00055F59E /* PopUpAmperViewController.swift */,
+				F3D616EE27301E890055F59E /* PopUpResistViewController.swift */,
+				F3D616E8272FD14A0055F59E /* PopUpResistLedViewController.swift */,
+				F3D616EC273009710055F59E /* PopUpVfLedViewController.swift */,
+				F3D616E6272FD0AA0055F59E /* ResistorLedViewController.swift */,
+			);
+			path = ResistorForLed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +217,7 @@
 				F3E73569271EE06500D6EB8D /* resistor-50-50.png in Resources */,
 				F3E73575271EFDFC00D6EB8D /* led-70.png in Resources */,
 				F3064C39271DA495004E6ACE /* premium-icon-led-1741571.png in Resources */,
+				F3D616EB272FF7E10055F59E /* resistorLed.png in Resources */,
 				F3E7356B271EE0B000D6EB8D /* resistor-200.png in Resources */,
 				F3064C37271DA1E0004E6ACE /* free-icon-capacitor-778677.png in Resources */,
 				F3064C3A271DA497004E6ACE /* premium-icon-resistor-2779398.png in Resources */,
@@ -207,11 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E862BB272581F000063C25 /* ResistorCode.swift in Sources */,
 				F3E7357D271F088E00D6EB8D /* SecondViewController.swift in Sources */,
 				F3064C19271D7186004E6ACE /* ViewController.swift in Sources */,
 				F3064C15271D7186004E6ACE /* AppDelegate.swift in Sources */,
 				F3064C17271D7186004E6ACE /* SceneDelegate.swift in Sources */,
+				F3D616F1273026C00055F59E /* PopUpAmperViewController.swift in Sources */,
+				F3D616E7272FD0AA0055F59E /* ResistorLedViewController.swift in Sources */,
+				F3D616ED273009710055F59E /* PopUpVfLedViewController.swift in Sources */,
+				F3D616E9272FD14A0055F59E /* PopUpResistLedViewController.swift in Sources */,
+				F3D616EF27301E890055F59E /* PopUpResistViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +392,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.astral.ElectroHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -382,6 +411,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.astral.ElectroHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
